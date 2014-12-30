@@ -14,8 +14,10 @@ body {
 }
 
 .jumbotron {
-	background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTA-2IJ5Vd3CGanDmz8xcYNqpq9YnK-qEzGNHHyVlfh8B2rGWJv');
 	height: 100%;
+	background-image: url('http://1.bp.blogspot.com/-lCwwRxlUoxE/UjXEqzeXnmI/AAAAAAAADRQ/OJgXvMyGP6o/s1600/Black&White+Photography+7.jpg');
+	height: 100%;
+	min-height: 100%;
 	background-size: cover;
 }
 
