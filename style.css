@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	overflow: hidden;
 	position: relative;
-	background-image: url('http://1.bp.blogspot.com/-lCwwRxlUoxE/UjXEqzeXnmI/AAAAAAAADRQ/OJgXvMyGP6o/s1600/Black&White+Photography+7.jpg');
+	background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQOmr-pG9WMK7OMxR2d9e6UZSgfIHkoGInDJmr84d__QCCZJpIZ);
 	background-size: cover;
 }
 
@@ -16,8 +16,8 @@ body {
 }
 
 .jumbotron {
-	background-image: url('http://1.bp.blogspot.com/-lCwwRxlUoxE/UjXEqzeXnmI/AAAAAAAADRQ/OJgXvMyGP6o/s1600/Black&White+Photography+7.jpg');
-	height: 100%;
+	height: auto;
+	max-height: 100%;
 	background-size: cover;
 }
 
