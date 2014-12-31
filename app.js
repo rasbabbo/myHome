@@ -14,7 +14,11 @@ var main = function () {
 	$('.btn').click(function() {
 		var post = $('.status-box').val();
 		$('<li>').text(post).prependTo('posts');
+		//clear field
+		$('.status-box').val('');
 	});
+
+
 };
 
 $(document).ready(main);
