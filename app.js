@@ -17,7 +17,7 @@ var main = function () {
 		//clear field, reset counter
 		$('.status-box').val('');
 		$('.counter').text(140);
-		$('btn').addClass('disabled');
+		// $('btn').addClass('disabled');
 	});
 		//counter feature and block unwanted submits
 	$('.status-box').keyup(function() {
@@ -25,14 +25,14 @@ var main = function () {
 		var charLength = 140 - postLength;
 		$('.counter').text(charLength);
 
-		if (charLength < 0 || charLength == 140) {
-			$('.btn').addClass('disabled');
-		} else {
-			$('.btn').removeClass('disabled');
-			}
+	// 	if (charLength < 0 || charLength == 140) {
+	// 		$('.btn').addClass('disabled');
+	// 	} else {
+	// 		$('.btn').removeClass('disabled');
+	// 		}
 	});
 
-	$('.btn').addClass('disabled');
+	// $('.btn').addClass('disabled');
 
 
 };
