@@ -17,6 +17,7 @@ var main = function () {
 		//clear field, reset counter
 		$('.status-box').val('');
 		$('.counter').text(140);
+		$('btn').addClass('disabled');
 	});
 		//counter feature and block unwanted submits
 	$('.status-box').keyup(function() {
