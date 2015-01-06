@@ -18,12 +18,20 @@ var main = function () {
 		$('.status-box').val('');
 		$('.counter').text(140);
 	});
-		//counter feature
+		//counter feature and block unwanted submits
 	$('.status-box').keyup(function() {
 		var postLength = $(this).val().length;
 		var charLength = 140 - postLength;
 		$('.counter').text(charLength);
+
+		if (charLength < 0 || charLength == 140) {
+			$('.btn').addClass('disabled');
+		} else {
+			$('.btn').removeClass('disabled');
+			}
 	});
+
+	$('.btn').addClass('disabled');
 
 
 };
