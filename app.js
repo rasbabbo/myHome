@@ -13,7 +13,7 @@ var main = function () {
 	//button functionality
 	$('.btn').click(function() {
 		var post = $('.status-box').val();
-		$('<li>').text(post).prependTo('posts');
+		$('<li>').text(post).prependTo('.posts');
 		//clear field, reset counter
 		$('.status-box').val('');
 		$('.counter').text(140);
